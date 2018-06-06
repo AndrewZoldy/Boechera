@@ -19,12 +19,14 @@ Current version has 3 launch parameter:
 As result you will obtain an .txt file with the following structure: 
 >*Genus Species* : *summary length of contigs aligned on current Sp.*
  
- *Genus2 Species2* : *summary length of contigs aligned on current Sp.*
+>*Genus2 Species2* : *summary length of contigs aligned on current Sp.*
  
- ...
+>...
  
- unknown :  *summary length of contigs which did not align on anything*
+>unknown :  *summary length of contigs which did not align on anything*
  
- Total : *summary length of each contigs which passed through plants-filter*
+>Total : *summary length of each contigs which passed through plants-filter*
  
- Total without unknowns : *summary length of each contigs which passed through plants-filter without unknown contigs*
+>Total without unknowns : *summary length of each contigs which passed through plants-filter without unknown contigs*
+
+**Watch out!** Plants-filtering does not guarantee elimination of every plants species in your data, because script filters it according to a dictionary. If you will find new plants species, please, update current version of dictionary.
