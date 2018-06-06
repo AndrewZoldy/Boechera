@@ -29,4 +29,4 @@ As result you will obtain an .txt file with the following structure:
  
 >Total without unknowns : *summary length of each contigs which passed through plants-filter without unknown contigs*
 
-**Watch out!** Plants-filtering does not guarantee elimination of every plants species in your data, because script filters it according to a dictionary. If you will find new plants species, please, update current version of dictionary.
+**Watch out!** Plants-filtering does not guarantee elimination of every plants species in your data, because script filters it according to a dictionary within. If you will find new plants species, please, update current version of dictionary.
