@@ -16,10 +16,15 @@ Current version has 3 launch parameter:
   
 #### Results
 
->As result you will obtain an .txt file with the following structure: 
+As result you will obtain an .txt file with the following structure: 
 >*Genus Species* : *summary length of contigs aligned on current Sp.*
+
 >*Genus2 Species2* : *summary length of contigs aligned on current Sp.*
+
 >...
+
 >unknown :  *summary length of contigs which did not align on anything*
+
 >Total : *summary length of each contigs which passed through plants-filter*
+
 >Total without unknowns : *summary length of each contigs which passed through plants-filter without unknown contigs*
